@@ -59,7 +59,6 @@ const FlashSales = () => {
                         rate={product.rate}
                         rating={product.rating}
                         description={product.description}
-                        btnText={product.btnText}
                     />)}
             </div>
         </div>

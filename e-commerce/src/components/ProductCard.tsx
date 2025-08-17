@@ -12,10 +12,9 @@ interface ProductProps {
     priceTwo: string;
     rating: number;
     rate: number;
-    btnText: string;
 }
 
-const ProductCard = ({ buttonText, imageSrc, imageAlt, priceOne, priceTwo, rate, rating, description, btnText }: ProductProps) => {
+const ProductCard = ({ buttonText, imageSrc, imageAlt, priceOne, priceTwo, rate, rating, description}: ProductProps) => {
     return (
         <div className="flex w-3/4 mx-auto flex-col leading-8 p-4 lg:w-1/4">
             <div className="bg-[#f5f5f5] h-1/2 p-2">
@@ -32,7 +31,6 @@ const ProductCard = ({ buttonText, imageSrc, imageAlt, priceOne, priceTwo, rate,
                         className="text-center ml-10" />
                     <FaRegEye />
                 </div>
-                <Button buttonText={btnText} type="button" variant="secondary" />
             </div>
             <p className="">{description}</p>
             <div className="flex gap-3">
