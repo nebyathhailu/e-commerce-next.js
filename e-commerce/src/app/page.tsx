@@ -1,5 +1,6 @@
 import FlashSales from "@/components/FlashSales";
 import Hero from "@/components/Hero";
+import BrowseCategory from "@/components/browse-category/BrowseCategory";
 import Link from "next/link";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
    <div>
     <Hero/>
     <FlashSales/>
+    <BrowseCategory/>
    </div>
   );
 }

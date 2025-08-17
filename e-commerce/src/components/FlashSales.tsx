@@ -1,6 +1,7 @@
-import { FLASH_SALES } from "@/constants"
-import ProductCard from "./ProductCard"
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
+import { FLASH_SALES } from "@/constants";
+import ProductCard from "./ProductCard";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Button from "./Button";
 
 const FlashSales = () => {
     return (
@@ -43,10 +44,7 @@ const FlashSales = () => {
                         <FaArrowRight />
                     </div>
                 </div>
-
             </div>
-
-
             <div className=" flex flex-col gap-2 justify-evenly lg:flex-row ">
                 {FLASH_SALES.map((product) =>
                     <ProductCard
@@ -60,6 +58,9 @@ const FlashSales = () => {
                         rating={product.rating}
                         description={product.description}
                     />)}
+            </div>
+            <div className="flex justify-items-center -mt-12">
+            <Button buttonText="View All Products" type="button" variant="main" />
             </div>
         </div>
     )
