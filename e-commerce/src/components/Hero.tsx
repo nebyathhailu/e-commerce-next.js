@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div className=" flex flex-column p-3 m-auto mt-8 lg:p-0 lg:flex-row lg:w-3/4  ">
             <div className="lg:w-1/5">
-                <ul className="hidden h-full items-bottom gap-12 md:flex md:align-center lg:block">
+                <ul className="hidden h-full items-bottom gap-12 md:flex flex-column md:align-center lg:block">
                     {SIDEBAR.map((link) =>
                         <Link href={link.href} key={link.value}
                             className="regular-16 flexCenter cursor-pointer pb-4 block transition-all hover:font-bold">

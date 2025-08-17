@@ -2,16 +2,16 @@ interface ButtonProps{
     type: 'button' | 'submit';
     buttonText:string;
     variant:string;
-    onClickHandler:() => void;
+    onClickHandler?:() => void;
 }
 
 const Button = ({type, buttonText, variant, onClickHandler}:ButtonProps) =>{
     const variantSwitch = (variant: string) => {
         switch(variant){
             case "primary":
-                return "bg-green-500 text-white-500";
+                return "bg-[#db4444] text-white px-[16px] rounded-sm ";
             case "secondary":
-                return "bg-white-500 text-green-500 border-1 border-green";
+                return "bg-black text-white w-[240px] text-center mt-4";
             default:
                 return "bg-green-500 text-white-500";
 
@@ -19,7 +19,7 @@ const Button = ({type, buttonText, variant, onClickHandler}:ButtonProps) =>{
     }
     const variantClass = variantSwitch(variant);
     return(
-        <button type={type} className={`${variantClass} px-[16px] py-[12px] border-none rounded-sm cursor-pointer`} onClick={onClickHandler}>
+        <button type={type} className={`${variantClass}  border-none cursor-pointer`} onClick={onClickHandler}>
             {buttonText}
         </button>
     );
