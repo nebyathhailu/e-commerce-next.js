@@ -59,10 +59,10 @@ const FlashSales = () => {
                         description={product.description}
                     />)}
             </div>
-            <div className="flex justify-items-center -mt-12">
+            <div className="flex justify-items-center lg:-mt-12">
             <Button buttonText="View All Products" type="button" variant="main" />
             </div>
         </div>
     )
-}
+};
 export default FlashSales;

@@ -4,7 +4,7 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const BrowseCategory = () => {
     return (
-        <div className="flex flex-col justify-evenly mt-10 gap-8 lg:w-3/4 lg:mx-auto">
+        <div className="flex flex-col justify-evenly px-3 mt-10 gap-8 lg:w-3/4 lg:mx-auto">
             <div className="flex items-center gap-3">
                 <p className="w-[15px] h-[30px] rounded-sm bg-[#db4444]"></p>
                 <p className="text-[#db4444] font-medium "> Categories</p>
@@ -16,7 +16,7 @@ const BrowseCategory = () => {
                     <FaArrowRight />
                 </div>
             </div>
-            <div className="flex flex-row justify-between mt-10">
+            <div className=" grid grid-cols-3 gap-2 lg:flex flex-row justify-between mt-10">
                 {BROWSE_CATEGORY.map((category) =>
                     <Category key={category.text}
                         imageSrc={category.imageSrc}
