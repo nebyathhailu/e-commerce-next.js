@@ -10,7 +10,7 @@ const FlashSales = () => {
             <div className="mb-6">
                 <div className="flex items-center gap-3">
                     <p className="w-[15px] h-[30px] rounded-sm bg-[#db4444]"></p>
-                    <p className="text-[#db4444] font-medium "> Today's</p>
+                    <p className="text-[#db4444] font-medium "> Today&apos;s</p>
                 </div>
                 <div className="flex items-center justify-between">
                     <div className="flex gap-3 lg:gap-20">
