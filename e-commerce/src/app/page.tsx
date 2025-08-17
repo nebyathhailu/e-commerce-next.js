@@ -1,5 +1,6 @@
 import FlashSales from "@/components/FlashSales";
 import Hero from "@/components/Hero";
+import SellingBooks from "@/components/SellingBooks";
 import BrowseCategory from "@/components/browse-category/BrowseCategory";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <Hero/>
     <FlashSales/>
     <BrowseCategory/>
+    <SellingBooks/>
    </div>
   );
 }

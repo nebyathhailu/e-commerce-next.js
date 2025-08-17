@@ -12,14 +12,15 @@ interface ProductProps {
     priceTwo: string;
     rating: number;
     rate: number;
+    variant: string;
 }
 
-const ProductCard = ({ buttonText, imageSrc, imageAlt, priceOne, priceTwo, rate, rating, description}: ProductProps) => {
+const ProductCard = ({ buttonText, imageSrc, imageAlt, priceOne, priceTwo, rate, rating, description, variant}: ProductProps) => {
     return (
         <div className="flex w-3/4 mx-auto flex-col leading-8 p-4 lg:w-1/4">
             <div className="bg-[#f5f5f5] h-1/2 p-2">
                 <div className="flex justify-between  mb-4">
-                    <Button buttonText={buttonText} type="button" variant="primary" />
+                    <Button buttonText={buttonText} type="button" variant={variant} />
                     <FaRegHeart />
                 </div>
                 <div className="flex justify-between h-1/2">

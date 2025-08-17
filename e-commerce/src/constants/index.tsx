@@ -22,6 +22,7 @@ export const SIDEBAR = [
     { href: '/', value: 'groceries-pets', label: "Groceries & Pets" },
     { href: '/', value: 'health-beauty', label: "Health & Beauty" },
 ]
+
 export const FLASH_SALES = [
     {
         buttonText: "-40%",
@@ -32,6 +33,7 @@ export const FLASH_SALES = [
         priceTwo: "$160",
         rating: 5,
         rate: 88,
+        variant:"primary",
     },
     {
         buttonText: "-35%",
@@ -43,6 +45,7 @@ export const FLASH_SALES = [
         rating: 4,
         rate: 75,
         btnText: "Add To Cart",
+        variant:"primary",
     },
     {
         buttonText: "-30%",
@@ -53,6 +56,7 @@ export const FLASH_SALES = [
         priceTwo: "$400",
         rating: 5,
         rate: 99,
+        variant:"primary",
     },
     {
         buttonText: "-25%",
@@ -63,6 +67,7 @@ export const FLASH_SALES = [
         priceTwo: "$400",
         rating: 4.5,
         rate: 99,
+        variant:"primary",
     }
 ]
 
@@ -90,5 +95,53 @@ export const BROWSE_CATEGORY = [
     {imageSrc: "/gaming-pad.png",
     imageAlt: "Gaming Pad",
     text: "Gaming",
+    }
+]
+
+export const SELLING_PRODUCTS = [
+    {
+        buttonText: "",
+        imageSrc: "/north-coat.png",
+        imageAlt: "The north coat",
+        description: "The north coat",
+        priceOne: "$260",
+        priceTwo: "$360",
+        rating: 5,
+        rate: 65,
+        variant:"",
+    },
+    {
+        buttonText: "",
+        imageSrc: "/gucci.png",
+        imageAlt: "Gucci duffle bag",
+        description: "Gucci duffle bag",
+        priceOne: "$960",
+        priceTwo: "$1160",
+        rating: 4.5,
+        rate: 65,
+        btnText: "Add To Cart",
+        variant:"",
+    },
+    {
+        buttonText: "",
+        imageSrc: "/cpu-cooler.png",
+        imageAlt: "CPU Cooler",
+        description: "RGB liquid CPU Cooler",
+        priceOne: "$160",
+        priceTwo: "$170",
+        rating: 4.5,
+        rate: 65,
+        variant:"",
+    },
+    {
+        buttonText: "",
+        imageSrc: "/bookshelf.png",
+        imageAlt: "Bookshelf",
+        description: "Small Bookshelf",
+        priceOne: "$360",
+        priceTwo: "",
+        rating: 5,
+        rate: 65,
+        variant:"",
     }
 ]
