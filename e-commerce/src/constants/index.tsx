@@ -1,5 +1,3 @@
-import { FaCamera, FaClock, FaDesktop, FaGamepad, FaHeadphones, FaPhone } from "react-icons/fa";
-
 export const OPTIONS = [
     { value: 'English', label: 'English' },
     { value: 'Spanish', label: 'Spanish' },
