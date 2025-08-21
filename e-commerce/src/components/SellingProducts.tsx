@@ -2,9 +2,9 @@ import { SELLING_PRODUCTS } from "@/constants";
 import ProductCard from "./ProductCard";
 import Button from "./Button";
 
-const SellingBooks = () => {
+const SellingProducts = () => {
     return (
-        <div className=" px-3 lg:w-3/4  mt-40 lg:mx-auto">
+        <div className=" px-3 lg:w-3/4 mb-10 mt-40 lg:mx-auto">
             <div className="flex mb-3 items-center gap-3">
                 <p className="w-[15px] h-[30px] rounded-sm bg-[#db4444]"></p>
                 <p className="text-[#db4444] font-medium "> This Month</p>
@@ -34,4 +34,4 @@ const SellingBooks = () => {
     )
 };
 
-export default SellingBooks;
+export default SellingProducts;

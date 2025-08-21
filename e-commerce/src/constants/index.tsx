@@ -145,3 +145,106 @@ export const SELLING_PRODUCTS = [
         variant:"",
     }
 ]
+
+export const MUSIC_EXPERIENCE = [
+    {num:23, description:"Hours", variant:"music-experience"},
+    {num:"05", description:"Days", variant:"music-experience"},
+    {num:59, description:"Minutes", variant:"music-experience"},
+    {num:35, description:"Seconds", variant:"music-experience"}
+]
+
+export const OUR_PRODUCTS = [
+    {
+        buttonText: "",
+        imageSrc: "/dog-food.png",
+        imageAlt: "Breed Dry Dog Food",
+        description: "Breed Dry Dog Food",
+        priceOne: "$100",
+        priceTwo: "",
+        rating: 3,
+        rate: 35,
+        variant:"",
+    },
+    {
+        buttonText: "",
+        imageSrc: "/canon-camera.png",
+        imageAlt: "CANON EOS DSLR Camera",
+        description: "CANON EOS DSLR Camera",
+        priceOne: "$360",
+        priceTwo: "",
+        rating: 4,
+        rate: 95,
+        btnText: "Add To Cart",
+        variant:"",
+    },
+    {
+        buttonText: "",
+        imageSrc: "/ideapad-gaming.png",
+        imageAlt: "ASUS FHD Gaming Laptop",
+        description: "ASUS FHD Gaming Laptop",
+        priceOne: "$700",
+        priceTwo: "",
+        rating: 5,
+        rate: 325,
+        variant:"",
+    },
+    {
+        buttonText: "",
+        imageSrc: "/curology.png",
+        imageAlt: "Curology Product Set",
+        description: "Curology Product Set",
+        priceOne: "$500",
+        priceTwo: "",
+        rating: 4,
+        rate: 145,
+        variant:"",
+    },
+]
+
+export const OUR_PRODUCTS1 = [
+    {
+        buttonText: "New",
+        imageSrc: "/New-Mercedes.png",
+        imageAlt: "Kids Electric Car",
+        description: "Kids Electric Car",
+        priceOne: "$960",
+        priceTwo: "",
+        rating: 3,
+        rate: 35,
+        variant:"",
+    },
+    {
+        buttonText: "",
+        imageSrc: "/satin-jacket .png",
+        imageAlt: "Jr. Zoom Soccer Cleats",
+        description: "Jr. Zoom Soccer Cleats",
+        priceOne: "$1160",
+        priceTwo: "",
+        rating: 4,
+        rate: 35,
+        btnText: "",
+        variant:"",
+    },
+    {
+        buttonText: "",
+        imageSrc: "/GP11_PRD.png",
+        imageAlt: "GP11 Shooter USB Gamepad",
+        description: "GP11 Shooter USB Gamepad",
+        priceOne: "$660",
+        priceTwo: "",
+        rating: 4.5,
+        rate: 55,
+        variant:"",
+    },
+    {
+        buttonText: "",
+        imageSrc: "/satin-jacket .png",
+        imageAlt: "Quilted Satin jacket",
+        description: "Quilted Satin Jacket",
+        priceOne: "$660",
+        priceTwo: "",
+        rating: 4.5,
+        rate: 55,
+        variant:"",
+    }
+]

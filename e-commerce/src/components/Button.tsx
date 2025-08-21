@@ -16,9 +16,10 @@ const Button = ({type, buttonText, variant, onClickHandler}:ButtonProps) =>{
                 return "bg-[#db4444] text-white w-[240px] py-2.5 rounded-sm text-center m-auto";
             case "sales":
                 return "bg-[#db4444] text-white w-[140px] py-2.5 rounded-sm text-center m-auto";
-
+            case "music-experience-btn":
+                return "bg-green-500 py-2 px-8 text-white rounded-sm mt-10";
             default:
-                return "bg-green-500 text-white-500";
+                return "bg-green-500 text-white P-6";
 
         }
     }
