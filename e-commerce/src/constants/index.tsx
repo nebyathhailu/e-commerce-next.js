@@ -211,11 +211,11 @@ export const OUR_PRODUCTS1 = [
         priceTwo: "",
         rating: 3,
         rate: 35,
-        variant:"",
+        variant:"explore-btn",
     },
     {
         buttonText: "",
-        imageSrc: "/satin-jacket .png",
+        imageSrc: "/Copa_Sense.png",
         imageAlt: "Jr. Zoom Soccer Cleats",
         description: "Jr. Zoom Soccer Cleats",
         priceOne: "$1160",
@@ -226,7 +226,7 @@ export const OUR_PRODUCTS1 = [
         variant:"",
     },
     {
-        buttonText: "",
+        buttonText: "New",
         imageSrc: "/GP11_PRD.png",
         imageAlt: "GP11 Shooter USB Gamepad",
         description: "GP11 Shooter USB Gamepad",
@@ -234,7 +234,7 @@ export const OUR_PRODUCTS1 = [
         priceTwo: "",
         rating: 4.5,
         rate: 55,
-        variant:"",
+        variant:"explore-btn",
     },
     {
         buttonText: "",
@@ -247,4 +247,40 @@ export const OUR_PRODUCTS1 = [
         rate: 55,
         variant:"",
     }
+]
+
+export const PLAYSTATION = [
+    {title:"Play Station 5", 
+     description:"Black and white version of the PS5 coming out sale.",
+     link:"Shop Now",
+     imageSrc:"/playstation.png",
+     imageAlt:"Playstation" ,
+     variant:"playstation"}
+]
+
+export const WOMEN_COLLECTION = [
+    {title:"Women's Collections", 
+     description:"Featured woman collections that give you another vibe.",
+     link:"Shop Now",
+     imageSrc:"/attractive-woman.png",
+     imageAlt:"Attractive Woman",
+     variant:"collection" }
+]
+
+export const SPEAKER = [
+    {title:"Speakers", 
+     description:"Amazon wireless speakers",
+     link:"Shop Now",
+     imageSrc:"/amazon-echo.png",
+     imageAlt:"Amazon Echo",
+     variant:"" },
+]
+
+export const PERFUME = [
+    {title:"Perfume", 
+     description:"GUCCI INTENSE OUD EDP",
+     link:"Shop Now",
+     imageSrc:"/gucci-perfume.png",
+     imageAlt:"GUCCI Perfume",
+     variant:"" },
 ]

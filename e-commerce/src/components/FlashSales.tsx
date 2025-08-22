@@ -60,7 +60,7 @@ const FlashSales = () => {
                         variant={product.variant}
                     />)}
             </div>
-            <div className="flex justify-items-center lg:-mt-12">
+            <div className="flex justify-items-center">
             <Button buttonText="View All Products" type="button" variant="main" />
             </div>
         </div>

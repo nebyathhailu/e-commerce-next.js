@@ -1,6 +1,7 @@
 import { OUR_PRODUCTS, OUR_PRODUCTS1 } from "@/constants";
 import ProductCard from "./ProductCard";
 import Button from "./Button";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const OurProducts = () => {
     return (
@@ -11,11 +12,12 @@ const OurProducts = () => {
             </div>
             <div className="flex pb-10 items-center justify-between">
                 <h1 className="font-bold mt-5 text-2xl md:text-4xl lg:mt-6">Explore Our Products</h1>
-                <div className="flex justify-items-end">
-                    <Button buttonText="View All" type="button" variant="sales" />
+                <div className="hidden lg:flex gap-5">
+                    <FaArrowLeft />
+                    <FaArrowRight />
                 </div>
             </div>
-            <div className=" flex flex-col gap-2 justify-evenly lg:flex-row ">
+            <div className=" flex flex-col gap-2 justify-evenly mb-10 lg:flex-row ">
                 {OUR_PRODUCTS.map((product) =>
                     <ProductCard
                         key={product.description}
@@ -44,6 +46,9 @@ const OurProducts = () => {
                         description={product.description}
                         variant={product.variant}
                     />)}
+            </div>
+            <div className="flex justify-items-center">
+            <Button buttonText="View All Products" type="button" variant="main" />
             </div>
         </div>
     )
