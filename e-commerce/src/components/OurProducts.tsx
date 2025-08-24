@@ -1,6 +1,6 @@
 import { OUR_PRODUCTS, OUR_PRODUCTS1 } from "@/constants";
-import ProductCard from "./ProductCard";
-import Button from "./Button";
+import ProductCard from "../shared-components/ProductCard";
+import Button from "../shared-components/Button";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const OurProducts = () => {

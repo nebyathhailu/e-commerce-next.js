@@ -3,7 +3,7 @@ import Link from "next/link";
 import { NAV_LINKS } from "@/constants";
 import { FaBars, FaRegHeart, FaSearch } from "react-icons/fa";
 import { usePathname } from "next/navigation";
-import Input from "./Input";
+import Input from "../shared-components/Input";
 
 const Navbar = () => {
     const pathname = usePathname();

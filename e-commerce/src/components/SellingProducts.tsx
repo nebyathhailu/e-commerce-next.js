@@ -1,6 +1,6 @@
 import { SELLING_PRODUCTS } from "@/constants";
-import ProductCard from "./ProductCard";
-import Button from "./Button";
+import ProductCard from "../shared-components/ProductCard";
+import Button from "../shared-components/Button";
 
 const SellingProducts = () => {
     return (

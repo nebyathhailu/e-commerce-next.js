@@ -33,7 +33,7 @@ export const FLASH_SALES = [
         priceTwo: "$160",
         rating: 5,
         rate: 88,
-        variant:"primary",
+        variant: "primary",
     },
     {
         buttonText: "-35%",
@@ -45,7 +45,7 @@ export const FLASH_SALES = [
         rating: 4,
         rate: 75,
         btnText: "Add To Cart",
-        variant:"primary",
+        variant: "primary",
     },
     {
         buttonText: "-30%",
@@ -56,7 +56,7 @@ export const FLASH_SALES = [
         priceTwo: "$400",
         rating: 5,
         rate: 99,
-        variant:"primary",
+        variant: "primary",
     },
     {
         buttonText: "-25%",
@@ -67,34 +67,40 @@ export const FLASH_SALES = [
         priceTwo: "$400",
         rating: 4.5,
         rate: 99,
-        variant:"primary",
+        variant: "primary",
     }
 ]
 
 export const BROWSE_CATEGORY = [
-    {imageSrc: "/smartphone.png",
-    imageAlt: "Phone",
-    text: "Phone",
+    {
+        imageSrc: "/smartphone.png",
+        imageAlt: "Phone",
+        text: "Phone",
     },
-    {imageSrc: "/computer.png",
-    imageAlt: "Computer",
-    text: "Computer",
+    {
+        imageSrc: "/computer.png",
+        imageAlt: "Computer",
+        text: "Computer",
     },
-    {imageSrc: "/smartwatch.png",
-    imageAlt: "SmartWatch",
-    text: "SmartWatch",
+    {
+        imageSrc: "/smartwatch.png",
+        imageAlt: "SmartWatch",
+        text: "SmartWatch",
     },
-    {imageSrc: "/camera.png",
-    imageAlt: "Camera",
-    text: "Camera",
+    {
+        imageSrc: "/camera.png",
+        imageAlt: "Camera",
+        text: "Camera",
     },
-    {imageSrc: "/headphone.png",
-    imageAlt: "HeadPhones",
-    text: "HeadPhones",
+    {
+        imageSrc: "/headphone.png",
+        imageAlt: "HeadPhones",
+        text: "HeadPhones",
     },
-    {imageSrc: "/gaming-pad.png",
-    imageAlt: "Gaming Pad",
-    text: "Gaming",
+    {
+        imageSrc: "/gaming-pad.png",
+        imageAlt: "Gaming Pad",
+        text: "Gaming",
     }
 ]
 
@@ -108,7 +114,7 @@ export const SELLING_PRODUCTS = [
         priceTwo: "$360",
         rating: 5,
         rate: 65,
-        variant:"",
+        variant: "",
     },
     {
         buttonText: "",
@@ -120,7 +126,7 @@ export const SELLING_PRODUCTS = [
         rating: 4.5,
         rate: 65,
         btnText: "Add To Cart",
-        variant:"",
+        variant: "",
     },
     {
         buttonText: "",
@@ -131,7 +137,7 @@ export const SELLING_PRODUCTS = [
         priceTwo: "$170",
         rating: 4.5,
         rate: 65,
-        variant:"",
+        variant: "",
     },
     {
         buttonText: "",
@@ -142,15 +148,15 @@ export const SELLING_PRODUCTS = [
         priceTwo: "",
         rating: 5,
         rate: 65,
-        variant:"",
+        variant: "",
     }
 ]
 
 export const MUSIC_EXPERIENCE = [
-    {num:23, description:"Hours", variant:"music-experience"},
-    {num:"05", description:"Days", variant:"music-experience"},
-    {num:59, description:"Minutes", variant:"music-experience"},
-    {num:35, description:"Seconds", variant:"music-experience"}
+    { num: 23, description: "Hours", variant: "music-experience" },
+    { num: "05", description: "Days", variant: "music-experience" },
+    { num: 59, description: "Minutes", variant: "music-experience" },
+    { num: 35, description: "Seconds", variant: "music-experience" }
 ]
 
 export const OUR_PRODUCTS = [
@@ -163,7 +169,7 @@ export const OUR_PRODUCTS = [
         priceTwo: "",
         rating: 3,
         rate: 35,
-        variant:"",
+        variant: "",
     },
     {
         buttonText: "",
@@ -175,7 +181,7 @@ export const OUR_PRODUCTS = [
         rating: 4,
         rate: 95,
         btnText: "Add To Cart",
-        variant:"",
+        variant: "",
     },
     {
         buttonText: "",
@@ -186,7 +192,7 @@ export const OUR_PRODUCTS = [
         priceTwo: "",
         rating: 5,
         rate: 325,
-        variant:"",
+        variant: "",
     },
     {
         buttonText: "",
@@ -197,7 +203,7 @@ export const OUR_PRODUCTS = [
         priceTwo: "",
         rating: 4,
         rate: 145,
-        variant:"",
+        variant: "",
     },
 ]
 
@@ -211,7 +217,7 @@ export const OUR_PRODUCTS1 = [
         priceTwo: "",
         rating: 3,
         rate: 35,
-        variant:"explore-btn",
+        variant: "explore-btn",
     },
     {
         buttonText: "",
@@ -223,7 +229,7 @@ export const OUR_PRODUCTS1 = [
         rating: 4,
         rate: 35,
         btnText: "",
-        variant:"",
+        variant: "",
     },
     {
         buttonText: "New",
@@ -234,7 +240,7 @@ export const OUR_PRODUCTS1 = [
         priceTwo: "",
         rating: 4.5,
         rate: 55,
-        variant:"explore-btn",
+        variant: "explore-btn",
     },
     {
         buttonText: "",
@@ -245,42 +251,97 @@ export const OUR_PRODUCTS1 = [
         priceTwo: "",
         rating: 4.5,
         rate: 55,
-        variant:"",
+        variant: "",
     }
 ]
 
 export const PLAYSTATION = [
-    {title:"Play Station 5", 
-     description:"Black and white version of the PS5 coming out sale.",
-     link:"Shop Now",
-     imageSrc:"/playstation.png",
-     imageAlt:"Playstation" ,
-     variant:"playstation"}
+    {
+        title: "Play Station 5",
+        description: "Black and white version of the PS5 coming out sale.",
+        link: "Shop Now",
+        imageSrc: "/playstation.png",
+        imageAlt: "Playstation",
+        variant: "playstation"
+    }
 ]
 
 export const WOMEN_COLLECTION = [
-    {title:"Women's Collections", 
-     description:"Featured woman collections that give you another vibe.",
-     link:"Shop Now",
-     imageSrc:"/attractive-woman.png",
-     imageAlt:"Attractive Woman",
-     variant:"collection" }
+    {
+        title: "Women's Collections",
+        description: "Featured woman collections that give you another vibe.",
+        link: "Shop Now",
+        imageSrc: "/attractive-woman.png",
+        imageAlt: "Attractive Woman",
+        variant: "collection"
+    }
 ]
 
 export const SPEAKER = [
-    {title:"Speakers", 
-     description:"Amazon wireless speakers",
-     link:"Shop Now",
-     imageSrc:"/amazon-echo.png",
-     imageAlt:"Amazon Echo",
-     variant:"" },
+    {
+        title: "Speakers",
+        description: "Amazon wireless speakers",
+        link: "Shop Now",
+        imageSrc: "/amazon-echo.png",
+        imageAlt: "Amazon Echo",
+        variant: ""
+    },
 ]
 
 export const PERFUME = [
-    {title:"Perfume", 
-     description:"GUCCI INTENSE OUD EDP",
-     link:"Shop Now",
-     imageSrc:"/gucci-perfume.png",
-     imageAlt:"GUCCI Perfume",
-     variant:"" },
+    {
+        title: "Perfume",
+        description: "GUCCI INTENSE OUD EDP",
+        link: "Shop Now",
+        imageSrc: "/gucci-perfume.png",
+        imageAlt: "GUCCI Perfume",
+        variant: ""
+    },
+]
+
+export const SERVICES = [
+    {
+        title: "FREE AND FAST DELIVERY",
+        description: "Free delivery for all orders over $140",
+        imageSrc: "/delivery-truck.png",
+        imageAlt: "Delivery truck"
+    },
+    {
+        title: "24/7 CUSTOMER SERVICE",
+        description: "Friendly 24/7 customer support",
+        imageSrc: "/headset.png",
+        imageAlt: "Headset"
+    },
+    {
+        title: "MONEY BACK GUARANTEE",
+        description: "We return money within 30days",
+        imageSrc: "/verified.png",
+        imageAlt: "Verified"
+    }
+]
+
+export const FOOTER_COLUMN = [
+   { title:"Support",
+    links:[
+      { label: "111 Bijoy Sarani, Dhaka", href: "#" },
+      { label: "exclusive@gmail.com", href: "mailto:exclusive@gmail.com" },
+      { label: "+88015-88888-9999", href: "tel:+88015888889999" },
+    ]},
+    {title:"Account",
+          links:[
+            { label: "My Account", href: "#" },
+            { label: "Login / Register", href: "#" },
+            { label: "Cart", href: "#" },
+            { label: "Wishlist", href: "#" },
+            { label: "Shop", href: "#" },
+          ]
+        },
+       { title:"Quick Link",
+          links:[
+            { label: "Privacy Policy", href: "#" },
+            { label: "Terms of Use", href: "#" },
+            { label: "FAQ", href: "#" },
+            { label: "Contact", href: "#" },
+          ]}
+
 ]

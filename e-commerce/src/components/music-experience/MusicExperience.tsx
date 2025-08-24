@@ -1,6 +1,6 @@
 import { MUSIC_EXPERIENCE } from "@/constants"
 import DisplayDate from "./components/DisplayDate"
-import Button from "../Button";
+import Button from "../../shared-components/Button";
 import Image from "next/image";
 
 const MusicExperience = () => {

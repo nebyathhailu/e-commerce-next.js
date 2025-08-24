@@ -1,7 +1,7 @@
 import { FaRegEye, FaRegHeart } from "react-icons/fa";
 import Button from "./Button";
 import Image from "next/image";
-import Rating from "./Rating";
+import Rating from "../components/Rating";
 
 interface ProductProps {
     buttonText: string;

@@ -20,10 +20,13 @@ const Display = ({ title, description, link, imageSrc, imageAlt, variant}: Displ
 
     const variantClass = variantSwitch(variant);
     return (
-        <div className="bg-black p-10 items-end">
-            <h1 className="text-2xl font-bold">{title}</h1>
-            <p>{description}</p>
-            <p className="underline">{link}</p>
+        <div className="bg-black p-10 items-end relative">
+            <div className="absolute top-[60%]">
+            <h1 className="text-2xl font-bold text-white">{title}</h1>
+            <p className="text-white">{description}</p>
+            <p className="underline text-white">{link}</p>
+            </div>
+            
             <Image
                 src={imageSrc}
                 alt={imageAlt}

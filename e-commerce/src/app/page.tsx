@@ -5,6 +5,7 @@ import OurProducts from "@/components/OurProducts";
 import SellingProducts from "@/components/SellingProducts";
 import BrowseCategory from "@/components/browse-category/BrowseCategory";
 import MusicExperience from "@/components/music-experience/MusicExperience";
+import Services from "@/components/services/Services";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <MusicExperience/>
     <OurProducts/>
     <NewArrival/>
+    <Services/>
    </div>
   );
 }

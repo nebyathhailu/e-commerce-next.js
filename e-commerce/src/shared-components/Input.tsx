@@ -10,6 +10,10 @@ const Input = ({type, placeholder, variant}:InputProps) => {
             case "search":{
                 return "bg-gray-100  pl-4 text-gray-500 text-sm relative";
             }
+            case "footer-email":
+                return "border-1 p-3 relative"
+            default:
+                return "border"
         }
     }
   return (

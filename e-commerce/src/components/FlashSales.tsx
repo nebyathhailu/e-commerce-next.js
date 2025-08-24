@@ -1,7 +1,7 @@
 import { FLASH_SALES } from "@/constants";
-import ProductCard from "./ProductCard";
+import ProductCard from "../shared-components/ProductCard";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import Button from "./Button";
+import Button from "../shared-components/Button";
 
 const FlashSales = () => {
     return (
